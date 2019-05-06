@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.manjari.onlineclothingshoppings.models.fragment.RegisterFragment">
+
+
+    <EditText
+        android:id="@+id/regUsername"
+        android:hint="Enter username..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:textColorHint=" #4F9223"
+
+        android:backgroundTint=" #A4DB7F"
+        />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:hint="Enter password..."
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColorHint=" #4F9223"
+        android:backgroundTint=" #A4DB7F"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:textAlignment="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#779564"
+
+
+
+        />
+
+</LinearLayout>
